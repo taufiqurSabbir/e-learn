@@ -634,16 +634,16 @@
                         </div>
                         <ul class="shape-group">
                             <li class="shape-1 scene">
-                                <img data-depth="-2" src="assets/images/about/shape-13.png" alt="Shape">
+                                <img data-depth="-2" src="{{asset('frontend/assets/images/about/shape-13.png')}}" alt="Shape">
                             </li>
                             <li class="shape-2">
-                                <img class="rotateit" src="assets/images/counterup/shape-02.png" alt="Shape">
+                                <img class="rotateit" src="{{asset('frontend/assets/images/counterup/shape-02.png')}}" alt="Shape">
                             </li>
                             <li class="shape-3 scene">
-                                <img data-depth="1.6" src="assets/images/counterup/shape-04.png" alt="Shape">
+                                <img data-depth="1.6" src="{{asset('frontend/assets/images/counterup/shape-04.png')}}" alt="Shape">
                             </li>
                             <li class="shape-4 scene">
-                                <img data-depth="-1.6" src="assets/images/counterup/shape-05.png" alt="Shape">
+                                <img data-depth="-1.6" src="{{asset('frontend/assets/images/counterup/shape-05.png')}}" alt="Shape">
                             </li>
                         </ul>
                     </div>
@@ -675,7 +675,7 @@
                             <div class="swiper-slide">
                                 <div class="testimonial-grid">
                                     <div class="thumbnail">
-                                        <img src="assets/images/testimonial/testimonial-01.png" alt="Testimonial">
+                                        <img src="{{asset('frontend/assets/images/testimonial/testimonial-01.png')}}" alt="Testimonial">
                                         <span class="qoute-icon"><i class="icon-26"></i></span>
 
                                     </div>
@@ -696,7 +696,7 @@
                             <div class="swiper-slide">
                                 <div class="testimonial-grid">
                                     <div class="thumbnail">
-                                        <img src="assets/images/testimonial/testimonial-02.png" alt="Testimonial">
+                                        <img src="{{asset('frontend/assets/images/testimonial/testimonial-02.png')}}" alt="Testimonial">
                                         <span class="qoute-icon"><i class="icon-26"></i></span>
 
                                     </div>
@@ -717,7 +717,7 @@
                             <div class="swiper-slide">
                                 <div class="testimonial-grid">
                                     <div class="thumbnail">
-                                        <img src="assets/images/testimonial/testimonial-03.png" alt="Testimonial">
+                                        <img src="{{asset('frontend/assets/images/testimonial/testimonial-03.png')}}" alt="Testimonial">
                                         <span class="qoute-icon"><i class="icon-26"></i></span>
 
                                     </div>
@@ -738,7 +738,7 @@
                             <div class="swiper-slide">
                                 <div class="testimonial-grid">
                                     <div class="thumbnail">
-                                        <img src="assets/images/testimonial/testimonial-04.png" alt="Testimonial">
+                                        <img src="{{asset('frontend/assets/images/testimonial/testimonial-04.png')}}" alt="Testimonial">
                                         <span class="qoute-icon"><i class="icon-26"></i></span>
 
                                     </div>
@@ -787,13 +787,13 @@
                         </div>
                         <ul class="shape-group">
                             <li class="shape-01 scene">
-                                <img data-depth="2" src="assets/images/cta/shape-06.png" alt="shape">
+                                <img data-depth="2" src="{{asset('frontend/assets/images/cta/shape-06.png')}}" alt="shape">
                             </li>
                             <li class="shape-02 scene">
-                                <img data-depth="-2" src="assets/images/cta/shape-12.png" alt="shape">
+                                <img data-depth="-2" src="{{asset('frontend/assets/images/cta/shape-12.png')}}" alt="shape">
                             </li>
                             <li class="shape-03 scene">
-                                <img data-depth="-3" src="assets/images/cta/shape-04.png" alt="shape">
+                                <img data-depth="-3" src="{{asset('frontend/assets/images/cta/shape-04.png')}}" alt="shape">
                             </li>
                         </ul>
                     </div>
@@ -821,7 +821,7 @@
                             <div class="thumbnail-wrap">
                                 <div class="thumbnail">
                                     <a href="team-details.html">
-                                        <img src="assets/images/team/team-01.webp" alt="team images">
+                                        <img src="{{asset('frontend/assets/images/team/team-01.webp')}}" alt="team images">
                                     </a>
                                 </div>
                                 <ul class="team-share-info">
@@ -846,7 +846,7 @@
                             <div class="thumbnail-wrap">
                                 <div class="thumbnail">
                                     <a href="team-details.html">
-                                        <img src="assets/images/team/team-02.webp" alt="team images">
+                                        <img src="{{asset('frontend/assets/images/team/team-02.webp')}}" alt="team images">
                                     </a>
                                 </div>
                                 <ul class="team-share-info">
@@ -871,7 +871,7 @@
                             <div class="thumbnail-wrap">
                                 <div class="thumbnail">
                                     <a href="team-details.html">
-                                        <img src="assets/images/team/team-03.webp" alt="team images">
+                                        <img src="{{asset('frontend/assets/images/team/team-03.webp')}}" alt="team images">
                                     </a>
                                 </div>
                                 <ul class="team-share-info">
@@ -896,7 +896,7 @@
                             <div class="thumbnail-wrap">
                                 <div class="thumbnail">
                                     <a href="team-details.html">
-                                        <img src="assets/images/team/team-04.webp" alt="team images">
+                                        <img src="{{asset('frontend/assets/images/team/team-04.webp')}}" alt="team images">
                                     </a>
                                 </div>
                                 <ul class="team-share-info">
@@ -935,16 +935,16 @@
                 </div>
                 <ul class="shape-group">
                     <li class="shape-01 scene">
-                        <img data-depth="2.5" src="assets/images/cta/shape-10.png" alt="shape">
+                        <img data-depth="2.5" src="{{asset('frontend/assets/images/cta/shape-10.png')}}" alt="shape">
                     </li>
                     <li class="shape-02 scene">
-                        <img data-depth="-2.5" src="assets/images/cta/shape-09.png" alt="shape">
+                        <img data-depth="-2.5" src="{{asset('frontend/assets/images/cta/shape-09.png')}}" alt="shape">
                     </li>
                     <li class="shape-03 scene">
-                        <img data-depth="-2" src="assets/images/cta/shape-08.png" alt="shape">
+                        <img data-depth="-2" src="{{asset('frontend/assets/images/cta/shape-08.png')}}" alt="shape">
                     </li>
                     <li class="shape-04 scene">
-                        <img data-depth="2" src="assets/images/about/shape-13.png" alt="shape">
+                        <img data-depth="2" src="{{asset('frontend/assets/images/about/shape-13.png')}}" alt="shape">
                     </li>
                 </ul>
             </div>
@@ -971,28 +971,28 @@
                 <div class="col-lg-7">
                     <div class="brand-grid-wrap">
                         <div class="brand-grid">
-                            <img src="assets/images/brand/brand-01.png" alt="Brand Logo">
+                            <img src="{{asset('frontend/assets/images/brand/brand-01.png')}}" alt="Brand Logo">
                         </div>
                         <div class="brand-grid">
-                            <img src="assets/images/brand/brand-02.png" alt="Brand Logo">
+                            <img src="{{asset('frontend/assets/images/brand/brand-02.png')}}" alt="Brand Logo">
                         </div>
                         <div class="brand-grid">
-                            <img src="assets/images/brand/brand-03.png" alt="Brand Logo">
+                            <img src="{{asset('frontend/assets/images/brand/brand-03.png')}}" alt="Brand Logo">
                         </div>
                         <div class="brand-grid">
-                            <img src="assets/images/brand/brand-04.png" alt="Brand Logo">
+                            <img src="{{asset('frontend/assets/images/brand/brand-04.png')}}" alt="Brand Logo">
                         </div>
                         <div class="brand-grid">
-                            <img src="assets/images/brand/brand-05.png" alt="Brand Logo">
+                            <img src="{{asset('frontend/assets/images/brand/brand-05.png')}}" alt="Brand Logo">
                         </div>
                         <div class="brand-grid">
-                            <img src="assets/images/brand/brand-06.png" alt="Brand Logo">
+                            <img src="{{asset('frontend/assets/images/brand/brand-06.png')}}" alt="Brand Logo">
                         </div>
                         <div class="brand-grid">
-                            <img src="assets/images/brand/brand-07.png" alt="Brand Logo">
+                            <img src="{{asset('frontend/assets/images/brand/brand-07.png')}}" alt="Brand Logo">
                         </div>
                         <div class="brand-grid">
-                            <img src="assets/images/brand/brand-08.png" alt="Brand Logo">
+                            <img src="{{asset('frontend/assets/images/brand/brand-08.png')}}" alt="Brand Logo">
                         </div>
                     </div>
                 </div>
@@ -1018,7 +1018,7 @@
                         <div class="inner">
                             <div class="thumbnail">
                                 <a href="blog-details.html">
-                                    <img src="assets/images/blog/blog-01.jpg" alt="Blog Images">
+                                    <img src="{{asset('frontend/assets/images/blog/blog-01.jpg')}}" alt="Blog Images">
                                 </a>
                             </div>
                             <div class="content position-top">
@@ -1045,7 +1045,7 @@
                         <div class="inner">
                             <div class="thumbnail">
                                 <a href="blog-details.html">
-                                    <img src="assets/images/blog/blog-02.jpg" alt="Blog Images">
+                                    <img src="{{asset('frontend/assets/images/blog/blog-02.jpg')}}" alt="Blog Images">
                                 </a>
                             </div>
                             <div class="content position-top">
@@ -1072,7 +1072,7 @@
                         <div class="inner">
                             <div class="thumbnail">
                                 <a href="blog-details.html">
-                                    <img src="assets/images/blog/blog-03.jpg" alt="Blog Images">
+                                    <img src="{{asset('frontend/assets/images/blog/blog-03.jpg')}}" alt="Blog Images">
                                 </a>
                             </div>
                             <div class="content position-top">
@@ -1097,13 +1097,13 @@
         </div>
         <ul class="shape-group">
             <li class="shape-1 scene">
-                <img data-depth="-1.4" src="assets/images/about/shape-02.png" alt="Shape">
+                <img data-depth="-1.4" src="{{asset('frontend/assets/images/about/shape-02.png')}}" alt="Shape">
             </li>
             <li class="shape-2 scene">
                 <span data-depth="2.5"></span>
             </li>
             <li class="shape-3 scene">
-                <img data-depth="-2.3" src="assets/images/counterup/shape-05.png" alt="Shape">
+                <img data-depth="-2.3" src="{{asset('frontend/assets/images/counterup/shape-05.png')}}" alt="Shape">
             </li>
         </ul>
     </div>
