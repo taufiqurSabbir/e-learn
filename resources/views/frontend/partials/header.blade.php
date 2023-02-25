@@ -87,10 +87,10 @@
                     <div class="header-mainnav">
                         <nav class="mainmenu-nav">
                             <ul class="mainmenu">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Course</a></li>
-                                <li><a href="#">Contact</a>
+                                <li><a href="{{route('home')}}">Home</a></li>
+                                <li><a href="{{route('about')}}">About</a></li>
+                                <li><a href="{{route('course')}}">Course</a></li>
+                                <li><a href="{{route('contact')}}">Contact</a>
                                 </li>
                             </ul>
                         </nav>
@@ -134,10 +134,10 @@
                     </div>
                 </div>
                 <ul class="mainmenu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Contact</a>
+                    <li><a href="{{route('home')}}">Home</a></li>
+                    <li><a href="{{route('about')}}">About</a></li>
+                    <li><a href="{{route('course')}}">Course</a></li>
+                    <li><a href="{{route('contact')}}">Contact</a>
                     </li>
                 </ul>
             </div>

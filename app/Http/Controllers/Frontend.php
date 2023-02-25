@@ -18,4 +18,8 @@ class Frontend extends Controller
     public function course(){
         return view('frontend.course');
     }
+
+    public function contact(){
+        return view('frontend.contact');
+    }
 }

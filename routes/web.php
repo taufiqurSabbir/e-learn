@@ -19,4 +19,5 @@ Route::controller(Frontend::class)->group(function (){
     Route::get('/','home')->name('home');
     Route::get('about','about')->name('about');
     Route::get('course','course')->name('course');
+    Route::get('contact','contact')->name('contact');
 });
