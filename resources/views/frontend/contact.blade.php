@@ -25,12 +25,12 @@
             <li class="shape-1">
                 <span></span>
             </li>
-            <li class="shape-2 scene"><img data-depth="2" src="assets/images/about/shape-13.png" alt="shape"></li>
-            <li class="shape-3 scene"><img data-depth="-2" src="assets/images/about/shape-15.png" alt="shape"></li>
+            <li class="shape-2 scene"><img data-depth="2" src="{{asset('frontend/assets/images/about/shape-13.png')}}" alt="shape"></li>
+            <li class="shape-3 scene"><img data-depth="-2" src="{{asset('frontend/assets/images/about/shape-15.png')}}" alt="shape"></li>
             <li class="shape-4">
                 <span></span>
             </li>
-            <li class="shape-5 scene"><img data-depth="2" src="assets/images/about/shape-07.png" alt="shape"></li>
+            <li class="shape-5 scene"><img data-depth="2" src="{{asset('frontend/assets/images/about/shape-07.png')}}" alt="shape"></li>
         </ul>
     </div>
 
@@ -91,8 +91,8 @@
                             </div>
                         </form>
                         <ul class="shape-group">
-                            <li class="shape-1 scene"><img data-depth="1" src="assets/images/about/shape-13.png" alt="Shape"></li>
-                            <li class="shape-2 scene"><img data-depth="-1" src="assets/images/counterup/shape-02.png" alt="Shape"></li>
+                            <li class="shape-1 scene"><img data-depth="1" src="{{asset('frontend/assets/images/about/shape-13.png')}}" alt="Shape"></li>
+                            <li class="shape-2 scene"><img data-depth="-1" src="{{asset('frontend/assets/images/counterup/shape-02.png')}}" alt="Shape"></li>
                         </ul>
                     </div>
                 </div>

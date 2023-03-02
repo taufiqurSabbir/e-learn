@@ -4,15 +4,15 @@
     <!--=====================================-->
     <!--=       Hero Banner Area Start      =-->
     <!--=====================================-->
-    <div class="hero-banner hero-style-1"{asset(){(frontend/'')}}>
+    <div class="hero-banner hero-style-1">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="banner-content">
-                        <h1 class="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Get <span class="color-secondary">2500+</span> <br>Best Online Courses From EduBlink</h1>
+                        <h1 class="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Get <span class="color-secondary">2500+</span> <br>Best Online Courses From LEARNATICS</h1>
                         <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.</p>
                         <div class="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                            <a href="course-one.html" class="edu-btn">Find courses <i class="icon-4"></i></a>
+                            <a href="{{route('course')}}" class="edu-btn">Find courses <i class="icon-4"></i></a>
                         </div>
                         <ul class="shape-group">
                             <li class="shape-1 scene" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">
@@ -775,7 +775,7 @@
                         <div class="inner">
                             <div class="content text-md-end">
                                 <span class="subtitle">Get In Touch:</span>
-                                <h3 class="title"><a href="mailto:info@edublink">info@edublink</a></h3>
+                                <h3 class="title"><a href="mailto:info@fanatech">info@fanatech.co</a></h3>
                             </div>
                             <div class="sparator">
                                 <span>or</span>
@@ -928,7 +928,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
                         <div class="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                            <h2 class="title">Get Your Quality Skills <span class="color-secondary">Certificate</span> Through EduBlink</h2>
+                            <h2 class="title">Get Your Quality Skills <span class="color-secondary">Certificate</span> Through LEARNATICS</h2>
                             <a href="contact-us.html" class="edu-btn">Get started now <i class="icon-4"></i></a>
                         </div>
                     </div>
@@ -1008,7 +1008,7 @@
         <div class="container">
             <div class="section-title section-center" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
                 <span class="pre-title">Latest Articles</span>
-                <h2 class="title">Get News with EduBlink</h2>
+                <h2 class="title">Get News with LEARNATICS</h2>
                 <span class="shape-line"><i class="icon-19"></i></span>
             </div>
             <div class="row g-5">

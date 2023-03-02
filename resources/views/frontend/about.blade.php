@@ -159,7 +159,7 @@
         <div class="container edublink-animated-shape">
             <div class="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                 <span class="pre-title">Why choose edublink</span>
-                <h2 class="title">The Best <span class="color-secondary">Beneficial</span> Side <br> of EduBlink</h2>
+                <h2 class="title">The Best <span class="color-secondary">Beneficial</span> Side <br> of LEARNATICS</h2>
                 <span class="shape-line"><i class="icon-19"></i></span>
             </div>
             <div class="row g-5">
@@ -232,7 +232,7 @@
                         <div class="inner">
                             <div class="content text-end">
                                 <span class="subtitle">Get In Touch:</span>
-                                <h3 class="title"><a href="mailto:info@edublink">info@edublink</a></h3>
+                                <h3 class="title"><a href="mailto:info@fanatech.co">info@fanatech.co</a></h3>
                             </div>
                             <div class="sparator">
                                 <span>or</span>

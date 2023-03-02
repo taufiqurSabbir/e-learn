@@ -5,7 +5,7 @@
     <!-- Meta Data -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>EduBlink | Online Education Platform</title>
+    <title> LEARNATICS | Online Education Platform</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
@@ -57,9 +57,9 @@
                 <div class="header-navbar">
                     <div class="header-brand">
                         <div class="logo">
-                            <a href="index.html">
-                                <img class="logo-light" src="{{asset('frontend/assets/images/logo/logo-dark.png')}}" alt="Corporate Logo">
-                                <img class="logo-dark" src="{{asset('frontend/assets/images/logo/logo-white.png')}}" alt="Corporate Logo">
+                            <a href="{{route('home')}}">
+                                <img class="logo-light" style="max-height: 200px; max-width: 110px" src="{{asset('frontend/assets/images/logo/logo-dark.png')}}" alt="Corporate Logo">
+                                <img class="logo-dark" style="max-height: 200px; max-width: 200px" src="{{asset('frontend/assets/images/logo/logo-white.png')}}" alt="Corporate Logo">
                             </a>
                         </div>
                         <div class="header-category">
