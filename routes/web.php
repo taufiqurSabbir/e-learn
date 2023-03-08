@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Frontend;
+use App\Http\Controllers\login_res;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,4 +18,17 @@ use Illuminate\Support\Facades\Route;
 
 Route::controller(Frontend::class)->group(function (){
     Route::get('/','home')->name('home');
+    Route::get('about','about')->name('about');
+    Route::get('course','course')->name('course');
+    Route::get('contact','contact')->name('contact');
 });
+
+Route::controller(login_res::class)->group(function (){
+    Route::get('/login','login_index' )->name('login.index');
+    Route::post('/login','login_submit' )->name('login.submit');
+    Route::get('/registation','res_index' )->name('registation.index');
+    Route::post('/registation','res_submit' )->name('registation.submit');
+});
+
+
+

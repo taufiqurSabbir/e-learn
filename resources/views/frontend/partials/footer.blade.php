@@ -9,9 +9,9 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="edu-footer-widget">
                         <div class="logo">
-                            <a href="index.html">
-                                <img class="logo-light" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
-                                <img class="logo-dark" src="assets/images/logo/logo-white.png" alt="Corporate Logo">
+                            <a href="{{route('home')}}">
+                                <img class="logo-light" src="{{asset('frontend/assets/images/logo/logo-dark.png')}}" alt="Corporate Logo">
+                                <img class="logo-dark" src="{{asset('frontend/assets/images/logo/logo-white.png')}}" alt="Corporate Logo">
                             </a>
                         </div>
                         <p class="description">Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.</p>
@@ -19,7 +19,7 @@
                             <ul class="information-list">
                                 <li><span>Add:</span>70-80 Upper St Norwich NR2</li>
                                 <li><span>Call:</span><a href="tel:+011235641231">+01 123 5641 231</a></li>
-                                <li><span>Email:</span><a href="mailto:info@edublink.com" target="_blank">info@edublink.com</a></li>
+                                <li><span>Email:</span><a href="mailto:info@fanatech.co" target="_blank">info@fanatech.co</a></li>
                             </ul>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner text-center">
-                        <p>Copyright 2023 <a href="https://1.envato.market/5bQ022" target="_blank">EduBlink</a> Designed By <a href="https://1.envato.market/YgGJbj" target="_blank">DevsBlink</a>. All Rights Reserved</p>
+                        <p>Copyright 2023 <a href="https://1.envato.market/5bQ022" target="_blank">LEARNATICS</a> Develop By <a href="http://fanatech.co/" target="_blank">FanaTech</a>. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
