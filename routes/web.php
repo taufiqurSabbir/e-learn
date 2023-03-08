@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\admin;
 use App\Http\Controllers\Frontend;
 use App\Http\Controllers\login_res;
 use Illuminate\Support\Facades\Route;
@@ -32,3 +33,7 @@ Route::controller(login_res::class)->group(function (){
 
 
 
+Route::controller(admin::class)->group(function (){
+    Route::get('/dashboard','index' )->name('dashboard');
+
+});
