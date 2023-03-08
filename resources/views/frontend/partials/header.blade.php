@@ -105,7 +105,7 @@
                             </li>
                             <li class="header-btn">
 
-                                <a href="contact-us.html" class="edu-btn btn-medium">Login<i class="icon-4"></i></a>
+                                <a href="{{route('registation.index')}}" class="edu-btn btn-medium">Login<i class="icon-4"></i></a>
 
                             </li>
                             <li class="mobile-menu-bar d-block d-xl-none">
